@@ -1,0 +1,10 @@
+print("=" * 55)
+print("W5D6 - LLMLINGUA COMPRESSION")
+print("=" * 55)
+
+print("Target compression rate: 0.4")
+print("Method: LLMLingua")
+print("Status: Model download requires additional disk space.")
+print("Result: Compression test could not be executed locally.")
+print("Reason: Insufficient disk space for the required model.")
+print("=" * 55)
