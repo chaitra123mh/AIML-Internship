@@ -1,0 +1,6 @@
+Computer Vision
+
+Computer Vision is a filed of Artificial Intelligence that enbles computers to understand and analyze images and videos.
+Computer vision techniques are used  for image classification, object detection, face recognition, image segmentation, and medical image analysis.
+Deep learning models, especially Convolutional Neutral networks and vision transformers, are widely used in computer vision applications.
+Computer vision is used in auonomous vehicle, security systems, healthcare, manufacturing, agriculture, and many other industries.
