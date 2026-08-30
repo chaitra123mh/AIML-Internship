@@ -1,6 +1,0 @@
-Machine Learning
-Machine Learning is a branch of Artificial Intelligence that enables computers to learn patterns from data without being explicitly programmed for evry task.
-The majoe types of machine leanring are supervised learning, unsupervised learning, and reenforcement learning.
-Supervised learnng uses labeled data for tasks such as classification and regression.
-Unsupervised learning works with unlabeled data and can discover hidden patterns or groups.
-machine learning is widely used in span detection, recommendation systems, prediction, fraud detection, and image recognition.
