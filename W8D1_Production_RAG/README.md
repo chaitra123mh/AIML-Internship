@@ -32,3 +32,12 @@ W8D1_Production_RAG/
 │
 └── .github/
     └── workflows/
+
+## Testing
+
+The FastAPI application was tested locally using Docker.
+
+- Docker image: production-ml-api
+- Container port: 8000
+- API endpoint: POST /predict
+- API response verified successfully.
