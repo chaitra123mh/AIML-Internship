@@ -1,0 +1,50 @@
+Question 1: What is Artificial Intelligence?
+Answer 1: Artificial Intelligence is the field of creating machines that can perform tasks requiring human intelligence.
+Context 1: Artificial Intelligence is the field of creating machines that can perform tasks requiring human intelligence.
+Machine Learning is a subset of Artificial Intelligence where computers learn patterns from data.
+----------------------------------------------------------------------
+Question 2: What is Machine Learning?
+Answer 2: Machine Learning is a subset of Artificial Intelligence where computers learn patterns from data.
+Context 2: Machine Learning is a subset of Artificial Intelligence where computers learn patterns from data.
+Artificial Intelligence is the field of creating machines that can perform tasks requiring human intelligence.
+----------------------------------------------------------------------
+Question 3: What is Deep Learning?
+Answer 3: Deep Learning uses neural networks with multiple layers to learn complex patterns.
+Context 3: Deep Learning uses neural networks with multiple layers to learn complex patterns.
+Machine Learning is a subset of Artificial Intelligence where computers learn patterns from data.
+----------------------------------------------------------------------
+Question 4: What is Natural Language Processing?
+Answer 4: Natural Language Processing enables computers to understand and process human language.
+Context 4: Natural Language Processing enables computers to understand and process human language.
+Machine Learning is a subset of Artificial Intelligence where computers learn patterns from data.
+----------------------------------------------------------------------
+Question 5: What is Computer Vision?
+Answer 5: Computer Vision allows computers to understand and analyze images and videos.
+Context 5: Computer Vision allows computers to understand and analyze images and videos.
+Machine Learning is a subset of Artificial Intelligence where computers learn patterns from data.
+----------------------------------------------------------------------
+Question 6: How does Machine Learning relate to AI?
+Answer 6: Machine Learning is a subset of Artificial Intelligence.
+Context 6: Machine Learning is a subset of Artificial Intelligence where computers learn patterns from data.
+Artificial Intelligence is the field of creating machines that can perform tasks requiring human intelligence.
+----------------------------------------------------------------------
+Question 7: What does Deep Learning use?
+Answer 7: Deep Learning uses neural networks with multiple layers.
+Context 7: Deep Learning uses neural networks with multiple layers to learn complex patterns.
+Machine Learning is a subset of Artificial Intelligence where computers learn patterns from data.
+----------------------------------------------------------------------
+Question 8: What does NLP process?
+Answer 8: NLP processes and understands human language.
+Context 8: Natural Language Processing enables computers to understand and process human language.
+Machine Learning is a subset of Artificial Intelligence where computers learn patterns from data.
+----------------------------------------------------------------------
+Question 9: What can Computer Vision analyze?
+Answer 9: Computer Vision can analyze images and videos.
+Context 9: Computer Vision allows computers to understand and analyze images and videos.
+Natural Language Processing enables computers to understand and process human language.
+----------------------------------------------------------------------
+Question 10: What is the purpose of Artificial Intelligence?
+Answer 10: The purpose of Artificial Intelligence is to create machines that can perform tasks requiring human intelligence.
+Context 10: Artificial Intelligence is the field of creating machines that can perform tasks requiring human intelligence.
+Machine Learning is a subset of Artificial Intelligence where computers learn patterns from data.
+----------------------------------------------------------------------

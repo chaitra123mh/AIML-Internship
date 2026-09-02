@@ -1,0 +1,29 @@
+W8D2 RAG Optimization Results
+================================
+
+The RAG pipeline was tested using 5 sample questions.
+
+Retrieval Results:
+
+1. What is Artificial Intelligence?
+   Retrieved documents: 3
+
+2. What is Machine Learning?
+   Retrieved documents: 3
+
+3. What is Deep Learning?
+   Retrieved documents: 3
+
+4. What is Natural Language Processing?
+   Retrieved documents: 3
+
+5. What is Computer Vision?
+   Retrieved documents: 3
+
+Observation:
+The retriever successfully retrieved relevant documents for each question.
+The top retrieved document was directly related to the question in all 5 cases.
+
+Optimization:
+The RAG pipeline was tested with the optimized retrieval configuration.
+The retrieval output was verified for relevance and consistency.
