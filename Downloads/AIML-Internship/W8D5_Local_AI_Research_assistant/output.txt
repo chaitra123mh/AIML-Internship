@@ -1,6 +1,0 @@
-W8D5 Local AI Research Assistant
---------------------------------
-Question: What is Deep Learning?
-
-Answer:
-Deep Learning is a branch of machine learning that uses multi-layer neural networks to analyze and interpret data, particularly in areas such as image recognition, speech processing, and natural language processing.
