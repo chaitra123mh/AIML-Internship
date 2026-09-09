@@ -1,2 +1,0 @@
-crewai==1.15.18
-crewai-tools==1.15.18
