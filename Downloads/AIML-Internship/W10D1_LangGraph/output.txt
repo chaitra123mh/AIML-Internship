@@ -1,0 +1,40 @@
+========== W10D1 TEST RESULTS ==========
+
+Test 1
+Input          : How can I learn Python?
+Classification : technical
+Route          : technical_response
+Response       : Technical response: Your question is related to technology or programming. Input: How can I learn Python?
+------------------------------------------------------------
+Test 2
+Input          : What is the capital of India?
+Classification : technical
+Route          : technical_response
+Response       : Technical response: Your question is related to technology or programming. Input: What is the capital of India?
+------------------------------------------------------------
+Test 3
+Input          : Explain Docker containers.
+Classification : technical
+Route          : technical_response
+Response       : Technical response: Your question is related to technology or programming. Input: Explain Docker containers.
+------------------------------------------------------------
+Test 4
+Input          : What is your favorite food?
+Classification : general
+Route          : general_response
+Response       : General response: I can help with this general question. Input: What is your favorite food?
+------------------------------------------------------------
+
+========== HUMAN-IN-THE-LOOP TEST ==========
+
+Graph paused for human approval.
+Input: Please approve this important account request.
+Classification: human_review
+Route: human_review
+
+Human decision required.
+Enter APPROVE or REJECT: APPROVE
+
+Graph resumed successfully.
+Human decision: APPROVE
+Final response: Human decision: APPROVE
