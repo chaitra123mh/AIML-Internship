@@ -1,0 +1,23 @@
+artifact_path: file:///C:/Users/Lenovo/Downloads/AIML-Internship/W11D1_MLflow/mlruns/1/models/m-688faad5164046238ecc4f2001415eb4/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.12.5
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.0
+    skops_trusted_types: null
+mlflow_version: 3.16.0
+model_id: m-688faad5164046238ecc4f2001415eb4
+model_size_bytes: 9201
+model_uuid: m-688faad5164046238ecc4f2001415eb4
+prompts: null
+run_id: 04edfb33c32d4f728a8cc890e829edea
+utc_time_created: '2026-09-10 10:57:25.146769'
