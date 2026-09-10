@@ -1,0 +1,61 @@
+============================================================
+W11D2: MLFLOW MODEL REGISTRY & VERSIONING
+============================================================
+
+Experiment 1
+C: 0.1
+max_iter: 100
+Accuracy: 0.9667
+Run ID: 455e29eb10034a9cbd360daa8d4bae47
+
+Experiment 2
+C: 1.0
+max_iter: 100
+Accuracy: 0.9667
+Run ID: f09fe6cdb07148e5831b584b5fc27a55
+
+Experiment 3
+C: 5.0
+max_iter: 300
+Accuracy: 1.0000
+Run ID: 674f4d7c88c94b599e41fefe81da39f0
+
+Experiment 4
+C: 10.0
+max_iter: 400
+Accuracy: 1.0000
+Run ID: 7ed035eb7593439c8a290c366e1f3d9f
+
+Experiment 5
+C: 20.0
+max_iter: 500
+Accuracy: 1.0000
+Run ID: 9a82caf913f940e7a5f0fc3664dbd788
+
+============================================================
+BEST MODEL
+============================================================
+Best Accuracy: 1.0000
+Best C: 5.0
+Best max_iter: 300
+Best Run ID: 674f4d7c88c94b599e41fefe81da39f0
+
+Registering best model...
+Successfully registered model 'W11D2_Iris_Model'.
+2026/09/10 17:57:58 WARNING mlflow.tracking._model_registry.fluent: Run with id 674f4d7c88c94b599e41fefe81da39f0 has no artifacts at artifact path 'model', registering model based on models:/m-e6108ef3e60c4cc6b1d4eae3c6ad4a51 instead
+Created version '1' of model 'W11D2_Iris_Model'.
+Registered Model: W11D2_Iris_Model
+Model Version: 1
+
+============================================================
+MODEL VERSIONING
+============================================================
+The best model has been registered successfully.
+Current Model Version: 1
+
+Model Registry URI:
+models:/W11D2_Iris_Model/1
+
+============================================================
+W11D2 COMPLETED SUCCESSFULLY
+============================================================
