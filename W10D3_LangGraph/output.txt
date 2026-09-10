@@ -1,0 +1,23 @@
+===== Conversation Memory Test =====
+[Classify] technical
+[Route] technical
+[Respond] This is a technical question. I can provide a technical explanation.
+[Human Review] Waiting for human input...
+First conversation paused.
+Enter human feedback: yah give
+[Human Review] Waiting for human input...
+[Human Review] yah give
+First interaction completed.
+[Classify] general
+[Route] general
+[Respond] This is a general question. I can provide a simple general answer.
+[Human Review] Waiting for human input...
+Second conversation paused.
+Enter human feedback: yes
+[Human Review] Waiting for human input...
+[Human Review] yes
+Second interaction completed.
+
+Persistent conversation test completed successfully.
+
+C:\Users\Lenovo\Downloads\AIML-Inte
