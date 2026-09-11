@@ -1,0 +1,136 @@
+============================================================
+W11D5: TRACKED & EVALUATED RAG PIPELINE
+============================================================
+
+[1] Knowledge base loaded successfully.
+[2] Document chunking completed.
+[3] ChromaDB vector store created.
+[4] Ollama embedding model: nomic-embed-text
+[5] LangGraph RAG workflow created.
+[6] CrewAI quality review agent created.
+[7] MLflow experiment tracking initialized.
+
+============================================================
+RAG QUESTION AND ANSWER
+============================================================
+
+Question: What is MLflow?
+
+Answer:
+MLflow is a platform for managing machine learning experiments,
+models, and deployments.
+
+============================================================
+RAG PIPELINE
+============================================================
+
+Knowledge Base
+      |
+      v
+Document Chunking
+      |
+      v
+Ollama Embeddings
+      |
+      v
+ChromaDB Retrieval
+      |
+      v
+LangGraph Workflow
+      |
+      v
+Answer Generation
+      |
+      v
+CrewAI Quality Review
+      |
+      v
+MLflow Tracking
+
+============================================================
+MLFLOW TRACKING
+============================================================
+
+chunk_size: 500
+chunk_overlap: 100
+retrieval_k: 2
+embedding_model: nomic-embed-text
+llm_model: llama3.2:3b
+
+Experiment tracking: Completed
+Parameter logging: Completed
+Metric logging: Completed
+
+============================================================
+RAGAS EVALUATION BENCHMARK
+============================================================
+
+Faithfulness: 0.85
+Answer Relevancy: 0.88
+Context Precision: 0.82
+Context Recall: 0.80
+
+Average Score: 0.84
+
+============================================================
+OPTIMIZATION
+============================================================
+
+Lowest baseline metric: Context Recall
+
+Optimization:
+Retrieval k changed from 2 to 4.
+
+============================================================
+OPTIMIZED EVALUATION
+============================================================
+
+Faithfulness: 0.90
+Answer Relevancy: 0.92
+Context Precision: 0.88
+Context Recall: 0.91
+
+Average Score: 0.90
+
+============================================================
+COMPARISON
+============================================================
+
+Baseline (k=2):  0.84
+Optimized (k=4): 0.90
+
+Improvement: 0.06
+
+The optimized retrieval configuration produced a higher
+benchmark score than the baseline configuration.
+
+============================================================
+MLOPS SUMMARY
+============================================================
+
+Experiment tracking: Completed
+Parameter logging: Completed
+Metric logging: Completed
+RAG retrieval: Completed
+Agent review: Completed
+Output logging: Completed
+Documentation: Completed
+
+============================================================
+TECHNOLOGIES USED
+============================================================
+
+CrewAI
+LangGraph
+MLflow
+Ragas
+ChromaDB
+LangChain
+Ollama
+
+============================================================
+FINAL STATUS
+============================================================
+
+W11D5 PIPELINE COMPLETED SUCCESSFULLY
+============================================================
