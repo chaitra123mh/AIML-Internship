@@ -1,0 +1,58 @@
+============================================================
+W11D3: MLFLOW MODEL SERVING & REST API
+============================================================
+
+Experiment 1
+C: 0.1
+max_iter: 100
+Accuracy: 0.9667
+Run ID: 3313dccd96d2415781eca0aad601abd1
+
+Experiment 2
+C: 1.0
+max_iter: 100
+Accuracy: 0.9667
+Run ID: 12d3124e9740465dacab71fe0bc820b8
+
+Experiment 3
+C: 5.0
+max_iter: 300
+Accuracy: 1.0000
+Run ID: 1e12281af8834d068e6734dd1667e921
+
+Experiment 4
+C: 10.0
+max_iter: 400
+Accuracy: 1.0000
+Run ID: dc53cde075504e12a123f740d4c840d9
+
+Experiment 5
+C: 20.0
+max_iter: 500
+Accuracy: 1.0000
+Run ID: e2ec8dd1fb64494b93527cfd0a96cc3c
+
+============================================================
+BEST MODEL
+============================================================
+Best Accuracy: 1.0000
+Best C: 5.0
+Best max_iter: 300
+Best Run ID: 1e12281af8834d068e6734dd1667e921
+
+Registering best model...
+Successfully registered model 'W11D3_Iris_Model'.
+2026/09/11 14:35:37 WARNING mlflow.tracking._model_registry.fluent: Run with id 1e12281af8834d068e6734dd1667e921 has no artifacts at artifact path 'model', registering model based on models:/m-fe5bf6dc5e584c20bd539199cdaaf082 instead
+Created version '1' of model 'W11D3_Iris_Model'.
+Registered Model: W11D3_Iris_Model
+Model Version: 1
+
+============================================================
+MODEL SERVING
+============================================================
+Model URI: models:/W11D3_Iris_Model/1Serving Port: 5003
+
+============================================================
+W11D3 EXPERIMENTS AND REGISTRY COMPLETED
+============================================================
+
