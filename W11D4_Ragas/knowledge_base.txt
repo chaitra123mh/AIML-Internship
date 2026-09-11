@@ -1,0 +1,27 @@
+RAG stands for Retrieval-Augmented Generation. It combines information retrieval with a language model to generate answers using relevant external knowledge.
+
+A RAG pipeline usually has four main steps: document loading, document splitting, embedding and vector storage, and retrieval followed by generation.
+
+Document chunking divides large documents into smaller pieces. Chunk size controls how much text is stored in each chunk. Smaller chunks can improve retrieval precision, while larger chunks can preserve more context.
+
+Embeddings convert text into numerical vectors. Similar pieces of text have similar vector representations. These vectors can be stored in a vector database.
+
+ChromaDB is a vector database commonly used for storing embeddings and performing similarity search. It can retrieve documents that are semantically similar to a user query.
+
+LangChain provides components for building LLM applications and RAG pipelines. It supports document loaders, text splitters, embeddings, vector stores, retrievers, and language models.
+
+Ragas is a framework for evaluating RAG applications. Important evaluation metrics include faithfulness, answer relevancy, context precision, and context recall.
+
+Faithfulness measures whether the generated answer is supported by the retrieved context. A highly faithful answer should not contain unsupported information.
+
+Answer relevancy measures how relevant the generated answer is to the user's question. A good answer should directly address the question.
+
+Context precision measures whether the retrieved context contains relevant information and whether relevant information is ranked appropriately.
+
+Context recall measures whether the retrieved context contains the information needed to answer the question.
+
+MLflow is a platform for tracking machine learning experiments, parameters, metrics, models, and model versions. It helps compare experiments and manage machine learning models.
+
+In a RAG system, retrieval quality can often be improved by changing the chunk size or the number of retrieved documents, called k. Increasing k can provide the language model with more context, while changing chunk size can affect the precision and completeness of retrieved information.
+
+RAG evaluation helps developers identify weaknesses in retrieval and generation. The evaluation results can be used to optimize the pipeline and improve answer quality.

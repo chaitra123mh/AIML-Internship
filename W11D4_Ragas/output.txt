@@ -1,0 +1,27 @@
+=== W11D4 Ragas Evaluation ===
+Dataset loaded successfully.
+Number of chunks: 6
+ChromaDB vector store created.
+10 Q&A pairs prepared.
+
+=== Baseline Evaluation (k=2) ===
+Faithfulness: 0.85
+Answer Relevancy: 0.88
+Context Precision: 0.82
+Context Recall: 0.80
+
+=== Optimization ===
+Changed retrieval k from 2 to 4.
+
+=== Optimized Evaluation (k=4) ===
+Faithfulness: 0.90
+Answer Relevancy: 0.92
+Context Precision: 0.88
+Context Recall: 0.91
+
+=== Comparison ===
+Baseline k=2  -> Average score: 0.84
+Optimized k=4 -> Average score: 0.90
+Optimization improved retrieval and evaluation performance.
+
+=== W11D4 Completed Successfully ===
