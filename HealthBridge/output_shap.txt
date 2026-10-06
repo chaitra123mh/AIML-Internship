@@ -1,0 +1,16 @@
+============================================================
+HealthBridge SHAP Explainability
+============================================================
+Actual Disease: Migraine
+Predicted Disease: Hypertension
+Prediction Confidence: 73.00%
+
+Top Contributing Features:
+------------------------------------------------------------
+Gender: +0.2011 (increased prediction influence)
+Fatigue: +0.1837 (increased prediction influence)
+Chest_Pain: +0.1144 (increased prediction influence)
+SpO2: +0.0532 (increased prediction influence)
+Nausea: -0.0448 (decreased prediction influence)
+
+SHAP visualization saved to: docs/shap_explanation.png

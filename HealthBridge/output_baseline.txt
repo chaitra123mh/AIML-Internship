@@ -1,0 +1,27 @@
+==================================================
+HealthBridge Baseline Model
+==================================================
+Dataset size: 800
+Training records: 640
+Testing records: 160
+Number of diseases: 8
+Baseline Accuracy: 80.00%
+
+Classification Report:
+                 precision    recall  f1-score   support
+
+        Anaemia       0.82      0.70      0.76        20
+Gastroenteritis       0.72      0.65      0.68        20
+        Healthy       0.72      0.90      0.80        20
+   Hypertension       0.65      0.85      0.74        20
+      Influenza       0.82      0.70      0.76        20
+       Migraine       0.71      0.60      0.65        20
+      Pneumonia       1.00      1.00      1.00        20
+  Type2Diabetes       1.00      1.00      1.00        20
+
+       accuracy                           0.80       160
+      macro avg       0.81      0.80      0.80       160
+   weighted avg       0.81      0.80      0.80       160
+
+
+Model saved to: models/healthbridge_baseline.pkl
